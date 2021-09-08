@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina</title>
+</head>
+<body>
+  <button type="button" onclick="alert('Botón presionado')">Click me!</button>
+
+  <strong>Top 3 equipos</strong>
+  <ol>
+    <li>Brazil</li>
+    <li>Argentina</li>
+    <li>Chile</li>
+  </ol>
+
+  <strong>Lista de compras</strong>
+  <ul>
+    <li>Arroz</li>
+    <li>Carne</li>
+    <li>Frijoles</li>
+  </ul>
+  <label for="name">Nombre: </label>
+  <input type="text" placeholder="Ingrese nombre" name="name">
+  <br><br>
+  <label for="age">Edad:</label>
+  <input type="number" name="age" placeholder="Ingrese edad" min="0" max="100">
+  <br><br>
+  <label for="birthdate">Fecha de nacimiento</label>
+  <input type="date" name="birthdate" id="birthdate">
+  <br><br>
+  <label for="password">Contraseña</label>
+  <input type="password" name="password" id="password">
+  <button type="button" onclick="document.getElementById('password').type == 'password' ? document.getElementById('password').type = 'text' : document.getElementById('password').type = 'password';">Mostrar/ocultar contraseña</button>
+  <br><br>
+  <input type="checkbox" name="hobbies" id="hobbies">
+  <label for="hobbies">Musica</label>
+  <input type="checkbox" name="hobbies" id="hobbies">
+  <label for="hobbies">Canto</label>
+  <input type="checkbox" name="hobbies" id="hobbies">
+  <label for="hobbies">Composición</label>
+  <br><br>
+  <input type="radio" name="sexo" id="sexo">
+  <label for="sexo">Femenino</label>
+  <input type="radio" name="sexo" id="sexo">
+  <label for="sexo">Masculino</label> 
+  <p>Lorem <b>ipsum</b> dolor sit amet <i>consectetur</i> <strong>adipisicing</strong> <u>elit</u>. Quas <q>sapiente</q> , ad <a href="https://google.com">nobis</a> aliquid, <time>2021</time> alias laborum exercitationem vitae reiciendis vel, itaque officiis nostrum? Quia veritatis unde minima nisi at magnam non?</p>
+  <p style="color: red;" id="mi-primer-parrafo" title="un parrafo">Hola buenos días</p>
+  
+</body>
+</html>
